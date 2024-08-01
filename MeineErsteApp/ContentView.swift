@@ -43,14 +43,14 @@ struct ContentView: View {
     @State private var selected: Fruit = .apple
     @State private var navigateToDetail = false
     var persons = [
-        Person(name: "Renan", age: 34, height: 1.79),
-        Person(name: "Amanda", age: 34, height: 1.68),
-        Person(name: "Alice", age: 2, height: 0.92),
-        Person(name: "Vo Marli", age: 60, height: 1.76),
-        Person(name: "Vo Jordan", age: 61, height: 1.77),
-        Person(name: "Vo Marlene", age: 61, height: 1.77),
-        Person(name: "Vo Edgar", age: 61, height: 1.77),
-        Person(name: "Vo Iara", age: 61, height: 1.68)
+        Person(name: "John Doe", age: 28, height: 1.80),
+        Person(name: "Jane Smith", age: 32, height: 1.65),
+        Person(name: "Emily Johnson", age: 25, height: 1.70),
+        Person(name: "Michael Brown", age: 45, height: 1.78),
+        Person(name: "Sarah Davis", age: 37, height: 1.72),
+        Person(name: "David Wilson", age: 29, height: 1.82),
+        Person(name: "Laura Martinez", age: 41, height:1.68),
+        Person(name: "James Garcia", age: 33, height: 1.77)
     ]
         
     var body: some View {
